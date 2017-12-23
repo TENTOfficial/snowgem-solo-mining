@@ -1,0 +1,52 @@
+{
+  "name": "equihash-solomining",
+  "version": "0.0.1",
+  "description": "High performance Stratum poolserver in Node.js",
+  "keywords": [
+    "stratum",
+    "mining",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "litecoin",
+    "scrypt"
+  ],
+  "homepage": "https://github.com/joshuayabut/node-stratum-pool",
+  "bugs": {
+    "url": "https://github.com/joshuayabut/node-stratum-pool/issues"
+  },
+  "license": "GPL-2.0",
+  "author": "Matthew Little",
+  "contributors": [
+    "vekexasia",
+    "TheSeven"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuayabut/node-stratum-pool.git"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "base58-native": "^0.1.4",
+    "bignum": "^0.12.5",
+    "bitcoinjs-lib-zcash": "git+https://github.com/runn1ng/bitcoinjs-lib.git#zcash",
+    "body-parser": "^1.18.2",
+    "color": "^1.0.3",
+    "colors": "^1.1.2",
+    "dot": "^1.1.2",
+    "equihashverify": "git+https://github.com/joshuayabut/equihashverify.git",
+    "express": "^4.16.2",
+    "express-dot-engine": "^1.0.7",
+    "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git",
+    "promise": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD/node_modules/stratum-pool/node_modules/equihashverify/build/Release/:$PWD/node_modules/equihashverify/build/Release/ node init.js"
+  }
+}
