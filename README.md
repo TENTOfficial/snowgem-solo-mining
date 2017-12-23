@@ -20,7 +20,7 @@ sudo apt-get install build-essential libsodium-dev npm
 sudo npm install n -g
 sudo n stable
 git clone https://github.com/Snowgem/snowgem-solo-mining
-cd equihash-solomining
+cd snowgem-solo-mining
 npm update
 npm install
 ```
