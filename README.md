@@ -31,7 +31,7 @@ Go to config.json and change it to your setup. Official documentation is here: [
 
 Want to add your own background to the frontend? 
 
-Go to website/public/index.dot and add `style="background-image: url(IMAGEURLHERE)"` to \<body\>. Example: http://i.imgur.com/FXG5wm4.png (NSFW)
+Go to website/public/index.dot and add `style="background-image: url(IMAGEURLHERE)"` to \<body\>. Example: https://i.imgur.com/rXerlBF.jpg
 
 Run
 ------------
