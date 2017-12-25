@@ -4,7 +4,7 @@
     "algorithm": "equihash",
 
     "payFoundersReward": true,
-    "percentFoundersReward": 10,
+    "percentFoundersReward": 5,
     "maxFoundersRewardBlockHeight": 2102400,
     "foundersRewardAddressChangeInterval": 105120,
     "vFoundersRewardAddress": [
