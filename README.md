@@ -27,11 +27,8 @@ npm install
 
 Configure
 -------------
-Go to config.json and change it to your setup. Official documentation is here: [https://zdeveloper.org/equihash-solomining](https://zdeveloper.org/equihash-solomining)
-
-Want to add your own background to the frontend? 
-
-Go to website/public/index.dot and add `style="background-image: url(IMAGEURLHERE)"` to \<body\>. Example: https://i.imgur.com/rXerlBF.jpg
+Go to config.json and change it to your setup. Change the wallet address to your local address
+![picture alt](https://i.imgur.com/a/jB5iV.png)
 
 Run
 ------------
